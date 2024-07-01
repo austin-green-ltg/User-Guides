@@ -1,0 +1,66 @@
+\documentclass[10pt]{article}
+
+\usepackage{graphicx}
+\usepackage[pdfpagelabels]{hyperref}
+\usepackage{verbatim}
+\usepackage[section]{placeins}
+\usepackage{bookmark}
+\usepackage{float}
+\usepackage{tabularx}
+
+\title{Title}
+\author{Austin Green}
+\date{\today\\V0.1}
+
+\begin{document}
+    \pagenumbering{Alph}
+    \begin{titlepage}
+    \maketitle
+    \thispagestyle{empty}
+    \end{titlepage}
+    \pagenumbering{arabic}
+	%\newpage
+	
+	%\setcounter{page}{1}
+	\tableofcontents
+	\newpage
+
+    \begin{comment}
+	\section{TODOs}
+		\begin{itemize}
+            \item TODO
+		\end{itemize}
+	\section{Version Control}
+		\begin{itemize}
+			\item V0.1 - 
+		\end{itemize}
+    \end{comment}
+
+	\section{Section}
+        \subsection{Subsection}
+            \subsubsection{Subsubsection}
+                \paragraph{Paragraph}
+                    \href{google.com}{Web page link}
+                    \begin{figure}[H]
+                        \centerline{\includegraphics[width=\textwidth]{References/Aurea Connect.png}}
+                        \figurename{ 1: Figure One}
+                    \end{figure}
+                    \texttt{example texttt}
+                    \begin{verbatim}
+example verbatim
+                    \end{verbatim} 
+                    \begin{enumerate}
+                        \item item 1
+                    \end{enumerate}
+                    \begin{table}[H]
+                        \centering \tablename{ 1: Table Name} \\
+                        \begin{tabularx}{\textwidth}{
+                            | >{\raggedright\arraybackslash}X 
+                            | >{\centering\arraybackslash}X | }
+                            \hline
+                            Header 1 & Header 2 \\\hline
+                            \hline
+                            Body 1 & Body 2 \\\hline
+                        \end{tabularx}
+                    \end{table}
+\end{document}
