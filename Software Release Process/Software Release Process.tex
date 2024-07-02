@@ -10,7 +10,7 @@
 
 \title{Software Release Process}
 \author{Austin Green}
-\date{\today\\V0.1}
+\date{\today\\V0.2}
 
 \begin{document}
     \pagenumbering{Alph}
@@ -24,6 +24,18 @@
 	%\setcounter{page}{1}
 	\tableofcontents
 	\newpage
+
+    \begin{comment}
+        \section{TODOs}
+            \begin{itemize}
+                \item Add kickback section
+            \end{itemize}
+        \section{Version Control}
+            \begin{itemize}
+                \item V0.1 - Initial Release
+                \item V0.2 - Added SmarTeam kickback note
+            \end{itemize}
+    \end{comment}
 
     \section{Initial Release}
         \subsection{TortoiseSVN}
@@ -61,6 +73,7 @@
             \subsubsection{Release}
                 To release software, create a folder in the \emph{releases} folder with the Release\_(version number) format. In this folder, create \emph{bin} and \emph{src} folders. Inside each of these folders should be a .zip file (of output files in \emph{bin} and source files in {src}), a \emph{Software Release Notes} word document, and a PDF of this document. Commit this folder to SVN using the above steps when you finish with this folder.
         \subsection{SmarTeam}
+            Notoe: It is important to have all documents filled out in the way that they should be submitted before submitting an ECO, because any edits to the files will kick back the ECO to you.
             \subsubsection{Updating Files}
                 SmarTeam is a bit tricky to get right so follow these steps carefully. First, in SmarTeam, navigate to your project, then the files you with to update (\emph{Design NoteBook}-\emph{Detailed Design General}-\emph{Top Level Design General}-\emph{Software}).
                 \begin{figure}[H]
