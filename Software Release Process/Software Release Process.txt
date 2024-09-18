@@ -1,0 +1,34 @@
+Initial Release
+    Highlight SWP
+        LifeCycle->New Release
+    Update SWP
+        Description
+        PN
+        Comments
+    Highlight Software Folder
+        Sort Tree By Description Ascending
+    Highlight Files
+        LifeCycle->New Release
+    Highlight PDF
+        LifeCycle->New Release
+    Search for Document ID
+        Drag under new SWP
+    Delete Link Previous Versions from SWP
+    Update New Version Info
+    Replace Old Files with New Files in SmarTeam Checked Out Folder
+    Highlight Files
+        LifeCycle->Check In
+        Leave Comment
+    Initiate Process->LAP ECO->LAP Software - Non Cert
+    Drag files into ECO
+    Update ECO Profile Card
+        Search for previous ECO with Flow Process Description
+        Use previous ECO description for current description
+    Add Redline under same folder as files
+        Drag Redline onto ECO in Links->Documents
+    ECO->FlowChart
+        LAP Peer Review
+    Send to Review
+
+Upon Kickback
+    Use same ECO for update
