@@ -1,0 +1,6 @@
+[submodule "Mirror-Firmware-Download"]
+	path = Mirror-Firmware-Download
+	url = https://github.com/austin-green-ltg/Mirror-Firmware-Download.git
+[submodule "Touchless-Sensor-Firmware-Download"]
+	path = Touchless-Sensor-Firmware-Download
+	url = https://github.com/austin-green-ltg/Touchless-Sensor-Firmware-Download.git
