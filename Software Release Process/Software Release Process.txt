@@ -1,3 +1,8 @@
+Submit New Item Number Requests Form
+    N:\Quality Assurance\QSD-DFS\LAP-LMT Forms\902739, F, New Item Number Request.xlsx
+        Rows 1, 2, 5 or 6, 9, 10, 11, 12
+    Send to Lisa
+
 Initial Release
     Highlight SWP
         LifeCycle->New Release
