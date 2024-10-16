@@ -4,3 +4,6 @@
 [submodule "Touchless-Sensor-Firmware-Download"]
 	path = Touchless-Sensor-Firmware-Download
 	url = https://github.com/austin-green-ltg/Touchless-Sensor-Firmware-Download.git
+[submodule "Combined-Mirror-Touchless-Guide"]
+	path = Combined-Mirror-Touchless-Guide
+	url = https://github.com/austin-green-ltg/Combined-Mirror-Touchless-Guide.git
